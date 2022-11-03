@@ -1,0 +1,26 @@
+#toc_container {
+    background: #e6e6e6 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+	border-radius: 20px;
+    padding-top: 10px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+    width: auto;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+
+body {
+    padding-bottom: 200px;
+}
