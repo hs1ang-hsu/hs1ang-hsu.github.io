@@ -18,7 +18,10 @@
 		<ul class="toc_list">
 			<li><a href="#research">1 Research</a>
 				<ul>
-					<li><a href="#paper-survey">1.1 Paper survey</a></li>
+					<li><a href="#intro">1.1 Introduction</a></li>
+				</ul>
+				<ul>
+					<li><a href="#paper-survey">1.2 Paper survey</a></li>
 				</ul>
 			</li>
 			<li><a href="#meeting-slides">2 Meeting slides</a></li>
@@ -29,9 +32,29 @@
 	<div id="block">
 		<h1 id="research">Research</h1>
 		<hr>
+		
+		<h2 id="intro">Introduction</h2>
+		We aims to do sports analysis by reconstructing 3D human pose from video source. This task can be split into
+		two steps:
+		<ul>
+		<li>2D keypoints estimation: estimating the 2D keypoints on human body. The model we use is <a href="https://arxiv.org/abs/2104.02300">DEKR</a>.
+		</li>
+		<li>2D-to-3D lifting: reconstruct 3D human pose from a sequence of 2D keypoints. The model we use is
+			<a href="https://arxiv.org/abs/2103.10455">Poseformer</a></li>
+		</li>
+		</ul>
+		2D-to-3D lifting is actually an ill-posed problem. Many 3D poses can have the same 2D projection onto camera plane.
+		For example, a person streching her arm forward has exactly the same 2D projection with her arm streching backward.
+		We find that even the SOTA model has difficulty predicting the correct direction. This mostly happens on limbs.
+		Hence we are finding a solution using pose hypotheses.<br>
+		Given a seqeunce of predicted 3D human poses, there should be some erroneous pose with wrong depth. For each pose, 
+		We generate several hypotheses of the same 2D projection and the answer should lie in these hypotheses. Then we use 
+		dynamic programming considering the continuity of consequent poses to find a sequence of 3D human poses such that 
+		it is closer to the answer.
+		
 		<h2 id="paper-survey">Paper survey</h2>
 		<ul>
-		<li>2d human pose estimation
+		<li>2d keypoints estimation
 			<ul>
 			<li>CVPR 2019 - Deep High-Resolution Representation Learning for Human Pose Estimation
 				<ul>
@@ -168,7 +191,19 @@
 		<h1 id="meeting-slides">Meeting slides</h1>
 		<hr>
 		<ul>
+			<li><a href="https://nas.mirlab.org/drive/d/s/sIRIwjlRnytY6ZYDaXx2693aA2xJLIYN/Sy7WV-aNePAMw0FKVVtvZDbmM3CwLJu0-7Ldg8LZnTgo">Introduction</a> - Introduction of our research.</li>
+		</ul>
+		<ul>
 			<li><a href="https://docs.google.com/presentation/d/1aXCfWwJpe3dKVOuIOHzL0LESQ9TrLYLG28u0oe9dU34/edit?usp=sharing">2022/11/02</a> - Introducing recent models on multi-hypotheses 3d pose estimating. Discussing over possible improvement.</li>
+		</ul>
+		<ul>
+			<li><a href="https://nas.mirlab.org/drive/d/s/rv8tBSq5beeDah0qo9wgkdMNY1qlFrbE/ny7TMAnPksAJ0uwVbuqeBOO7-g97BtNy-e7gglihoTgo">2023/01/11</a> - Estimating state probability with neural network.</li>
+		</ul>
+		<ul>
+			<li><a href="https://nas.mirlab.org/drive/d/s/sOBn51kkZTxt1sKahNmC7PAaquWvjCfE/_SPcEm10pI19OUtJuo1cHG2YwztqVr6I-8LiAla5oTgo">2023/02/15</a> - Introducing dynamic programming with GMM-based probability estimation.</li>
+		</ul>
+		<ul>
+			<li><a href="https://nas.mirlab.org/drive/d/s/srFtw3AW1gknqaAyusmIHor9AaeKHGpb/7fserjpTfm890R65NL3gbqFW8wKabQxt-grngXvxoTgo">2023/03/22</a> - Introducing tri-skeleton in the dynamic programming.</li>
 		</ul>
 	</div>
 	
