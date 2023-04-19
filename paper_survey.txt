@@ -1,5 +1,23 @@
 <ul>
-<li>2d human pose estimation
+<li>Human pose prior
+	<ul>
+	<li>ICCV 2021 - Probabilistic Monocular 3D Human Pose Estimation with Normalizing Flows
+		<ul>
+		<li>Paper: <a href="https://arxiv.org/abs/2107.13788">https://arxiv.org/abs/2107.13788</a></li>
+		<li>Code: <a href="GitHub">https://github.com/twehrbein/Probabilistic-Monocular-3D-Human-Pose-Estimation-with-Normalizing-Flows</a></li>
+		<li>Notes: normalizeing flows</li>
+		</ul>
+	</li>
+	<li>CVPR 2023 - GFPose Learning 3D Human Pose Prior with Gradient Fields
+		<ul>
+		<li>Paper: <a href="https://arxiv.org/abs/2212.08641">https://arxiv.org/abs/2212.08641</a></li>
+		<li>Code: <a href="GitHub">https://github.com/Embracing/GFPose</a></li>
+		</ul>
+	</li>
+	</ul>
+</li>
+
+<li>2d keypoints estimation
 	<ul>
 	<li>CVPR 2019 - Deep High-Resolution Representation Learning for Human Pose Estimation
 		<ul>
@@ -28,12 +46,6 @@
 		<ul>
 		<li>Paper: <a href="https://arxiv.org/abs/1904.05547">https://arxiv.org/abs/1904.05547</a></li>
 		<li>Code: <a href="GitHub">https://github.com/chaneyddtt/Generating-Multiple-Hypotheses-for-3D-Human-Pose-Estimation-with-Mixture-Density-Network</a></li>
-		</ul>
-	</li>
-	<li>ICCV 2021 - Probabilistic Monocular 3D Human Pose Estimation with Normalizing Flows
-		<ul>
-		<li>Paper: <a href="https://arxiv.org/abs/2107.13788">https://arxiv.org/abs/2107.13788</a></li>
-		<li>Code: <a href="GitHub">https://github.com/twehrbein/Probabilistic-Monocular-3D-Human-Pose-Estimation-with-Normalizing-Flows</a></li>
 		</ul>
 	</li>
 	<li>CVPR 2022 - MHFormer: Multi-Hypothesis Transformer for 3D Human Pose Estimation
