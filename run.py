@@ -34,7 +34,7 @@ def paper_survey(data):
             if len(p[2]) != 0:
                 paper += '\t\t<li>Paper: <a href="%s">%s</a></li>\n' %(p[2], p[2])
             if len(p[3]) != 0:
-                paper += '\t\t<li>Code: <a href="GitHub">%s</a></li>\n' %(p[3])
+                paper += '\t\t<li>Code: <a href="%s">GitHub</a></li>\n' %(p[3])
             if len(p[0]) != 0:
                 paper += '\t\t<li>Notes: %s</li>\n' %(p[0])
             paper += '\t\t</ul>\n\t</li>\n'

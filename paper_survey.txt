@@ -4,14 +4,84 @@
 	<li>ICCV 2021 - Probabilistic Monocular 3D Human Pose Estimation with Normalizing Flows
 		<ul>
 		<li>Paper: <a href="https://arxiv.org/abs/2107.13788">https://arxiv.org/abs/2107.13788</a></li>
-		<li>Code: <a href="GitHub">https://github.com/twehrbein/Probabilistic-Monocular-3D-Human-Pose-Estimation-with-Normalizing-Flows</a></li>
-		<li>Notes: normalizeing flows</li>
+		<li>Code: <a href="https://github.com/twehrbein/Probabilistic-Monocular-3D-Human-Pose-Estimation-with-Normalizing-Flows">GitHub</a></li>
 		</ul>
 	</li>
 	<li>CVPR 2023 - GFPose Learning 3D Human Pose Prior with Gradient Fields
 		<ul>
 		<li>Paper: <a href="https://arxiv.org/abs/2212.08641">https://arxiv.org/abs/2212.08641</a></li>
-		<li>Code: <a href="GitHub">https://github.com/Embracing/GFPose</a></li>
+		<li>Code: <a href="https://github.com/Embracing/GFPose">GitHub</a></li>
+		<li>Notes: Using ground truth depth in normalization</li>
+		</ul>
+	</li>
+	</ul>
+</li>
+
+<li>Absolute depth
+	<ul>
+	<li>3DV 2019 - Multi-Person 3D Human Pose Estimation from Monocular Images
+		<ul>
+		<li>Paper: <a href="https://arxiv.org/abs/1909.10854">https://arxiv.org/abs/1909.10854</a></li>
+		<li>Notes: Estimating multi-person depth with focal length and translation optimization</li>
+		</ul>
+	</li>
+	<li>ICCV 2019 - Camera Distance-aware Top-down Approach for 3D Multi-person Pose Estimation from a Single RGB Image
+		<ul>
+		<li>Paper: <a href="https://arxiv.org/abs/1907.11346">https://arxiv.org/abs/1907.11346</a></li>
+		<li>Code: <a href="https://github.com/mks0601/3DMPPE_POSENET_RELEASE">GitHub</a></li>
+		<li>Notes: Using bounding box in image and the 3d posture knowledge to estimate absolute depth</li>
+		</ul>
+	</li>
+	<li>ICCV 2019 - Optimizing Network Structure for 3D Human Pose Estimation
+		<ul>
+		<li>Paper: <a href="https://ieeexplore.ieee.org/document/9010332">https://ieeexplore.ieee.org/document/9010332</a></li>
+		<li>Code: <a href="https://github.com/CHUNYUWANG/lcn-pose">GitHub</a></li>
+		<li>Notes: Using ground truth depth in normalization</li>
+		</ul>
+	</li>
+	<li>ArXiv 2019 - PoseLifter: Absolute 3D human pose lifting network from a single noisy 2D human pose
+		<ul>
+		<li>Paper: <a href="https://arxiv.org/abs/1910.12029">https://arxiv.org/abs/1910.12029</a></li>
+		<li>Code: <a href="https://github.com/juyongchang/PoseLifter">GitHub</a></li>
+		<li>Notes: Predicting canonical root depth</li>
+		</ul>
+	</li>
+	<li>ECCV 2020 - SMAP: Single-Shot Multi-Person Absolute 3D Pose Estimation
+		<ul>
+		<li>Paper: <a href="https://zju3dv.github.io/SMAP/">https://zju3dv.github.io/SMAP/</a></li>
+		<li>Code: <a href="https://github.com/zju3dv/SMAP">GitHub</a></li>
+		<li>Notes: Normalizing depth</li>
+		</ul>
+	</li>
+	<li>CVPR 2022 - Ray3D: ray-based 3D human pose estimation for monocular absolute 3D localization
+		<ul>
+		<li>Paper: <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Zhan_Ray3D_Ray-Based_3D_Human_Pose_Estimation_for_Monocular_Absolute_3D_CVPR_2022_paper.pdf">https://openaccess.thecvf.com/content/CVPR2022/papers/Zhan_Ray3D_Ray-Based_3D_Human_Pose_Estimation_for_Monocular_Absolute_3D_CVPR_2022_paper.pdf</a></li>
+		<li>Code: <a href="https://github.com/YxZhxn/Ray3D">GitHub</a></li>
+		<li>Notes: Embedding 2d poses in projective space</li>
+		</ul>
+	</li>
+	</ul>
+</li>
+
+<li>Occlusion handling
+	<ul>
+	<li>ICCV 2019 - Occlusion-Aware Networks for 3D Human Pose Estimation in Video
+		<ul>
+		<li>Paper: <a href="https://openaccess.thecvf.com/content_ICCV_2019/papers/Cheng_Occlusion-Aware_Networks_for_3D_Human_Pose_Estimation_in_Video_ICCV_2019_paper.pdf">https://openaccess.thecvf.com/content_ICCV_2019/papers/Cheng_Occlusion-Aware_Networks_for_3D_Human_Pose_Estimation_in_Video_ICCV_2019_paper.pdf</a></li>
+		<li>Notes: Detecting occlusion by cylinder-man model</li>
+		</ul>
+	</li>
+	<li>AAAI 2020 - 3D Human Pose Estimation Using Spatio-Temporal Networks with Explicit Occlusion Training
+		<ul>
+		<li>Paper: <a href="https://arxiv.org/abs/2004.11822">https://arxiv.org/abs/2004.11822</a></li>
+		<li>Notes: Masking keypoints in training process</li>
+		</ul>
+	</li>
+	<li>ECCV 2022 - Explicit Occlusion Reasoning for Multi-person 3D Human Pose Estimation
+		<ul>
+		<li>Paper: <a href="https://arxiv.org/abs/2208.00090">https://arxiv.org/abs/2208.00090</a></li>
+		<li>Code: <a href="https://github.com/qihao067/HUPOR">GitHub</a></li>
+		<li>Notes: Detecting occlusion by Skeleton-guided human Shape Fitting</li>
 		</ul>
 	</li>
 	</ul>
@@ -22,13 +92,13 @@
 	<li>CVPR 2019 - Deep High-Resolution Representation Learning for Human Pose Estimation
 		<ul>
 		<li>Paper: <a href="https://arxiv.org/abs/1902.09212">https://arxiv.org/abs/1902.09212</a></li>
-		<li>Code: <a href="GitHub">https://github.com/leoxiaobin/deep-high-resolution-net.pytorch</a></li>
+		<li>Code: <a href="https://github.com/leoxiaobin/deep-high-resolution-net.pytorch">GitHub</a></li>
 		</ul>
 	</li>
 	<li>CVPR 2021 - Bottom-Up Human Pose Estimation Via Disentangled Keypoint Regression
 		<ul>
 		<li>Paper: <a href="https://arxiv.org/abs/2104.02300">https://arxiv.org/abs/2104.02300</a></li>
-		<li>Code: <a href="GitHub">https://github.com/HRNet/DEKR</a></li>
+		<li>Code: <a href="https://github.com/HRNet/DEKR">GitHub</a></li>
 		<li>Notes: best solution for 2d human pose estimation</li>
 		</ul>
 	</li>
@@ -45,13 +115,13 @@
 	<li>CVPR 2019 - Generating Multiple Hypotheses for 3D Human Pose Estimation with Mixture Density Network
 		<ul>
 		<li>Paper: <a href="https://arxiv.org/abs/1904.05547">https://arxiv.org/abs/1904.05547</a></li>
-		<li>Code: <a href="GitHub">https://github.com/chaneyddtt/Generating-Multiple-Hypotheses-for-3D-Human-Pose-Estimation-with-Mixture-Density-Network</a></li>
+		<li>Code: <a href="https://github.com/chaneyddtt/Generating-Multiple-Hypotheses-for-3D-Human-Pose-Estimation-with-Mixture-Density-Network">GitHub</a></li>
 		</ul>
 	</li>
 	<li>CVPR 2022 - MHFormer: Multi-Hypothesis Transformer for 3D Human Pose Estimation
 		<ul>
 		<li>Paper: <a href="https://arxiv.org/abs/2111.12707">https://arxiv.org/abs/2111.12707</a></li>
-		<li>Code: <a href="GitHub">https://github.com/Vegetebird/MHFormer</a></li>
+		<li>Code: <a href="https://github.com/Vegetebird/MHFormer">GitHub</a></li>
 		<li>Notes: there are several unsolved problems in this paper, which are mentioned in <a href="https://docs.google.com/presentation/d/1aXCfWwJpe3dKVOuIOHzL0LESQ9TrLYLG28u0oe9dU34/edit?usp=sharing">meeting slide 2022/11/02</a></li>
 		</ul>
 	</li>
@@ -63,14 +133,14 @@
 	<li>CVPR 2019 - Self-Supervised Learning of 3D Human Pose using Multi-view Geometry
 		<ul>
 		<li>Paper: <a href="https://arxiv.org/abs/1903.02330">https://arxiv.org/abs/1903.02330</a></li>
-		<li>Code: <a href="GitHub">https://github.com/mkocabas/EpipolarPose</a></li>
+		<li>Code: <a href="https://github.com/mkocabas/EpipolarPose">GitHub</a></li>
 		<li>Notes: MPJPE (L2-norm loss) is said to be not sufficient</li>
 		</ul>
 	</li>
 	<li>IEEE 2021 - Anatomy-aware 3D Human Pose Estimation with Bone-based Pose Decomposition
 		<ul>
 		<li>Paper: <a href="https://arxiv.org/abs/2002.10322">https://arxiv.org/abs/2002.10322</a></li>
-		<li>Code: <a href="GitHub">https://github.com/sunnychencool/Anatomy3D</a></li>
+		<li>Code: <a href="https://github.com/sunnychencool/Anatomy3D">GitHub</a></li>
 		</ul>
 	</li>
 	</ul>
@@ -81,25 +151,25 @@
 	<li>CVPR 2019 - 3D human pose estimation in video with temporal convolutions and semi-supervised training
 		<ul>
 		<li>Paper: <a href="https://arxiv.org/abs/1811.11742">https://arxiv.org/abs/1811.11742</a></li>
-		<li>Code: <a href="GitHub">https://github.com/facebookresearch/VideoPose3D</a></li>
+		<li>Code: <a href="https://github.com/facebookresearch/VideoPose3D">GitHub</a></li>
 		</ul>
 	</li>
 	<li>CVPR 2019 - Semantic Graph Convolutional Networks for 3D Human Pose Regression
 		<ul>
 		<li>Paper: <a href="https://arxiv.org/abs/1904.03345">https://arxiv.org/abs/1904.03345</a></li>
-		<li>Code: <a href="GitHub">https://github.com/garyzhao/SemGCN</a></li>
+		<li>Code: <a href="https://github.com/garyzhao/SemGCN">GitHub</a></li>
 		</ul>
 	</li>
 	<li>2020 - A Graph Attention Spatio-temporal Convolutional Network for 3D Human Pose Estimation in Video
 		<ul>
 		<li>Paper: <a href="https://arxiv.org/abs/2003.14179">https://arxiv.org/abs/2003.14179</a></li>
-		<li>Code: <a href="GitHub">https://github.com/fabro66/GAST-Net-3DPoseEstimation</a></li>
+		<li>Code: <a href="https://github.com/fabro66/GAST-Net-3DPoseEstimation">GitHub</a></li>
 		</ul>
 	</li>
 	<li>ICCV 2021 - 3D Human Pose Estimation with Spatial and Temporal Transformers
 		<ul>
 		<li>Paper: <a href="https://arxiv.org/abs/2103.10455">https://arxiv.org/abs/2103.10455</a></li>
-		<li>Code: <a href="GitHub">https://github.com/zczcwh/PoseFormer</a></li>
+		<li>Code: <a href="https://github.com/zczcwh/PoseFormer">GitHub</a></li>
 		</ul>
 	</li>
 	<li>IEEE 2022 - Limb Pose Aware Networks for Monocular 3D Pose Estimation
@@ -116,7 +186,7 @@
 	<li>ICLR 2021 An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
 		<ul>
 		<li>Paper: <a href="https://arxiv.org/abs/2010.11929">https://arxiv.org/abs/2010.11929</a></li>
-		<li>Code: <a href="GitHub">https://github.com/google-research/vision_transformer</a></li>
+		<li>Code: <a href="https://github.com/google-research/vision_transformer">GitHub</a></li>
 		</ul>
 	</li>
 	</ul>
@@ -127,7 +197,7 @@
 	<li>CVPR 2022 - EPro-PnP: Generalized End-to-End Probabilistic Perspective-n-Points for Monocular Object Pose Estimation
 		<ul>
 		<li>Paper: <a href="https://arxiv.org/abs/2203.13254">https://arxiv.org/abs/2203.13254</a></li>
-		<li>Code: <a href="GitHub">https://github.com/tjiiv-cprg/EPro-PnP</a></li>
+		<li>Code: <a href="https://github.com/tjiiv-cprg/EPro-PnP">GitHub</a></li>
 		</ul>
 	</li>
 	</ul>
