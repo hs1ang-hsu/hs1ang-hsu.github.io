@@ -24,3 +24,5 @@ Transformer on computer vision,,ICLR 2021 An Image is Worth 16x16 Words: Transfo
 Human pose estimation,,ICCV 2021 - 3D Human Pose Estimation with Spatial and Temporal Transformers,https://arxiv.org/abs/2103.10455,https://github.com/zczcwh/PoseFormer
 Human pose estimation,Using additional information from raw images,IEEE 2022 - Limb Pose Aware Networks for Monocular 3D Pose Estimation,https://ieeexplore.ieee.org/document/9663053,
 Object pose estimation in 6-dof,,CVPR 2022 - EPro-PnP: Generalized End-to-End Probabilistic Perspective-n-Points for Monocular Object Pose Estimation,https://arxiv.org/abs/2203.13254,https://github.com/tjiiv-cprg/EPro-PnP
+IMU related,representation of rotation,CVPR 2019 On the Continuity of Rotation Representations in Neural Networks,https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhou_On_the_Continuity_of_Rotation_Representations_in_Neural_Networks_CVPR_2019_paper.pdf,
+IMU related,,CVPR 2023 Physical Inertial Poser (PIP): Physics-aware Real-time Human Motion Tracking from Sparse Inertial Sensors,https://arxiv.org/abs/2203.08528,https://github.com/Xinyu-Yi/PIP
