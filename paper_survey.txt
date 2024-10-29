@@ -125,6 +125,30 @@
 		<li>Notes: there are several unsolved problems in this paper, which are mentioned in <a href="https://docs.google.com/presentation/d/1aXCfWwJpe3dKVOuIOHzL0LESQ9TrLYLG28u0oe9dU34/edit?usp=sharing">meeting slide 2022/11/02</a></li>
 		</ul>
 	</li>
+	<li>CVPR 2023 -  Diffpose: Toward more reliable 3d pose estimation
+		<ul>
+		<li>Paper: <a href="https://arxiv.org/abs/2211.16940">https://arxiv.org/abs/2211.16940</a></li>
+		<li>Code: <a href="https://github.com/GONGJIA0208/Diffpose">GitHub</a></li>
+		</ul>
+	</li>
+	<li>ICCV 2023 - Diffusion-based 3d human pose estimation with multi-hypothesis aggregation
+		<ul>
+		<li>Paper: <a href="https://arxiv.org/abs/2303.11579">https://arxiv.org/abs/2303.11579</a></li>
+		<li>Code: <a href="https://github.com/paTRICK-swk/D3DP">GitHub</a></li>
+		</ul>
+	</li>
+	<li>CVPR 2024 - Ktpformer: Kinematics and trajectory prior knowledge-enhanced transformer for 3d human pose estimation
+		<ul>
+		<li>Paper: <a href="https://arxiv.org/abs/2404.00658">https://arxiv.org/abs/2404.00658</a></li>
+		<li>Code: <a href="https://github.com/JihuaPeng/KTPFormer">GitHub</a></li>
+		</ul>
+	</li>
+	<li>CVPR 2024 - Finepose: Fine-grained prompt-driven 3d human pose estimation via diffusion models
+		<ul>
+		<li>Paper: <a href="https://arxiv.org/abs/2405.05216">https://arxiv.org/abs/2405.05216</a></li>
+		<li>Code: <a href="https://github.com/PKU-ICST-MIPL/FinePOSE_CVPR2024">GitHub</a></li>
+		</ul>
+	</li>
 	</ul>
 </li>
 
@@ -178,12 +202,30 @@
 		<li>Notes: Using additional information from raw images</li>
 		</ul>
 	</li>
+	<li>CVPR 2022 - Mixste: Seq2seq mixed spatiotemporal encoder for 3d human pose estimation in video
+		<ul>
+		<li>Paper: <a href="https://arxiv.org/abs/2203.00859">https://arxiv.org/abs/2203.00859</a></li>
+		<li>Code: <a href="https://github.com/JinluZhang1126/MixSTE">GitHub</a></li>
+		</ul>
+	</li>
+	<li>CVPR 2023 - 3d human pose estimation with spatio-temporal criss-cross attention
+		<ul>
+		<li>Paper: <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Tang_3D_Human_Pose_Estimation_With_Spatio-Temporal_Criss-Cross_Attention_CVPR_2023_paper.pdf">https://openaccess.thecvf.com/content/CVPR2023/papers/Tang_3D_Human_Pose_Estimation_With_Spatio-Temporal_Criss-Cross_Attention_CVPR_2023_paper.pdf</a></li>
+		<li>Code: <a href="https://github.com/zhenhuat/STCFormer">GitHub</a></li>
+		</ul>
+	</li>
+	<li>CVPR 2023 -  Poseformerv2: Exploring frequency domain for efficient and robust 3d human pose estimation
+		<ul>
+		<li>Paper: <a href="https://arxiv.org/abs/2303.17472">https://arxiv.org/abs/2303.17472</a></li>
+		<li>Code: <a href="https://github.com/QitaoZhao/PoseFormerV2">GitHub</a></li>
+		</ul>
+	</li>
 	</ul>
 </li>
 
 <li>Transformer on computer vision
 	<ul>
-	<li>ICLR 2021 An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
+	<li>ICLR 2021 - An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
 		<ul>
 		<li>Paper: <a href="https://arxiv.org/abs/2010.11929">https://arxiv.org/abs/2010.11929</a></li>
 		<li>Code: <a href="https://github.com/google-research/vision_transformer">GitHub</a></li>
@@ -205,19 +247,19 @@
 
 <li>IMU related
 	<ul>
-	<li>CVPR 2019 On the Continuity of Rotation Representations in Neural Networks
+	<li>CVPR 2019 - On the Continuity of Rotation Representations in Neural Networks
 		<ul>
 		<li>Paper: <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhou_On_the_Continuity_of_Rotation_Representations_in_Neural_Networks_CVPR_2019_paper.pdf">https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhou_On_the_Continuity_of_Rotation_Representations_in_Neural_Networks_CVPR_2019_paper.pdf</a></li>
 		<li>Notes: representation of rotation</li>
 		</ul>
 	</li>
-	<li>CVPR 2023 Physical Inertial Poser (PIP): Physics-aware Real-time Human Motion Tracking from Sparse Inertial Sensors
+	<li>CVPR 2023 - Physical Inertial Poser (PIP): Physics-aware Real-time Human Motion Tracking from Sparse Inertial Sensors
 		<ul>
 		<li>Paper: <a href="https://arxiv.org/abs/2203.08528">https://arxiv.org/abs/2203.08528</a></li>
 		<li>Code: <a href="https://github.com/Xinyu-Yi/PIP">GitHub</a></li>
 		</ul>
 	</li>
-	<li>TMLR 2023 High fidelity neural audio compression
+	<li>TMLR 2023 - High fidelity neural audio compression
 		<ul>
 		<li>Paper: <a href="https://openreview.net/pdf?id=ivCd8z8zR2">https://openreview.net/pdf?id=ivCd8z8zR2</a></li>
 		<li>Code: <a href="https://github.com/descriptinc/descript-audio-codec">GitHub</a></li>
